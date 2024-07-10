@@ -36,6 +36,7 @@
 
 /* second */
 .second {
+
     align-items: center;
     justify-content: center;
     padding: 80px 97px;
@@ -43,6 +44,10 @@
 }
 
 .web-dev {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border-radius: 16px;
     margin: 40px;
     padding: 80px 97px;
@@ -156,14 +161,22 @@
 
 .target {
     font-family: Azeret Mono;
-    background-color: burlywood;
-    border-radius: 15px;
+    border-radius: 16px;
+
+    background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     justify-content: space-between;
 }
 
 .target-text {
-    margin-bottom: 20px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 24px;
 }
 
 .link {
@@ -172,14 +185,19 @@
 
 .target-1 {
     font-family: Azeret Mono;
-    background-color: burlywood;
-    border-radius: 15px;
+    border-radius: 16px;
+
+    background: rgba(0, 76, 232, 0.05);
     padding: 40px;
+}
+
+.t-gap {
+    margin-bottom: 20px;
 }
 
 .target-2 {
     font-family: Azeret Mono;
-    background-color: burlywood;
+    background-color: rgba(255, 223, 0, 0.05);
     border-radius: 15px;
     padding: 40px;
 }

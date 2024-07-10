@@ -7,23 +7,27 @@
 }
 
 .hero {
+    font-family: Azeret Mono;
     text-align: center;
     margin: 26px 221px 44px 221px;
     padding: 20px;
 }
 
 .title {
+
     font-weight: 800px;
     font-size: 48px;
 }
 
 .description {
+    
     font-size: 17px;
     font-weight: 400px;
     margin: 20px 110px 40px 110px;
 }
 
 .btn {
+    font-family: Azeret Mono;
     text-decoration: none;
     display: inline-block;
     padding: 21px 24px;
@@ -55,12 +59,14 @@
 }
 
 .title-web {
+    font-family: Azeret Mono;
     font-size: 32px;
     text-align: center;
     margin-bottom: 30px;
 }
 
 .web-disc {
+    font-family: Azeret Mono;
     text-align: center;
     font-size: 18px;
     opacity: 0.7;

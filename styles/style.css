@@ -184,15 +184,17 @@
 .support {
     display: flex;
     flex-direction: column;
-    padding: 64px 60px;
-    color: white;
+    padding: 64px 48px;
+    width: auto;
+    height: 330px;
     background-size: cover;
     background-image: url(../assets/handshake.jpg);
     background-repeat: no-repeat;
-    
     border-radius: 16px;
     align-items: center;
     margin-bottom: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 .supp {
@@ -226,4 +228,14 @@
     width: 120px;
     height: 57px;
     background: rgb(255, 255, 255);
+}
+
+/* footer */
+.footer-container {
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.03);
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 150px;
 }

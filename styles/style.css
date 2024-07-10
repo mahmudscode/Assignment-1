@@ -24,6 +24,7 @@
 }
 
 .btn {
+    text-decoration: none;
     display: inline-block;
     padding: 21px 24px;
     text-align: center;

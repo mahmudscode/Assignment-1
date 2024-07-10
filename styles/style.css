@@ -36,7 +36,7 @@
 /* second */
 .second {
     align-items: center;
-    margin-top: 100px;
+    justify-content: center;
     padding: 80px 97px;
 }
 
@@ -120,4 +120,17 @@
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+}
+/* third */
+.third{
+    align-items: center;
+    justify-content: center;
+    padding: 80px 145px;
+}
+.video{
+    box-sizing: border-box;
+    border: 5px solid rgba(13, 19, 33, 0.2);
+    border-radius: 26px;
+   margin-bottom: 10px;
+       
 }

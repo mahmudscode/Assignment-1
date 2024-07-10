@@ -38,11 +38,14 @@
     align-items: center;
     justify-content: center;
     padding: 80px 97px;
+    
 }
 
 .web-dev {
+    border-radius: 16px;
     margin: 40px;
     padding: 80px 97px;
+    background: rgba(13, 19, 33, 0.02);
 }
 
 .title-web {
@@ -128,9 +131,43 @@
     padding: 80px 145px;
 }
 .video{
+    justify-content: center;
     box-sizing: border-box;
     border: 5px solid rgba(13, 19, 33, 0.2);
     border-radius: 26px;
    margin-bottom: 10px;
        
+}
+/* target */
+.target-container{
+    justify-content: space-around;
+    display: flex;
+    padding:130px ;
+    margin: 40px 0px;
+    gap: 24px;
+}
+.target{
+    font-family: Azeret Mono;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 40px;
+    justify-content: space-between;
+}
+.target-text{
+    margin-bottom: 20px;
+}
+.link{
+    color: black;
+}
+.target-1{
+    font-family: Azeret Mono;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 40px;
+}
+.target-2{
+    font-family: Azeret Mono;
+    background-color: burlywood;
+    border-radius: 15px;
+    padding: 40px;
 }

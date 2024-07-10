@@ -38,7 +38,7 @@
     align-items: center;
     justify-content: center;
     padding: 80px 97px;
-    
+
 }
 
 .web-dev {
@@ -124,50 +124,106 @@
     letter-spacing: 0%;
     text-align: left;
 }
+
 /* third */
-.third{
+.third {
     align-items: center;
     justify-content: center;
     padding: 80px 145px;
 }
-.video{
+
+.video {
     justify-content: center;
     box-sizing: border-box;
     border: 5px solid rgba(13, 19, 33, 0.2);
     border-radius: 26px;
-   margin-bottom: 10px;
-       
+    margin-bottom: 10px;
+
 }
+
 /* target */
-.target-container{
+.target-container {
     justify-content: space-around;
     display: flex;
-    padding:130px ;
+    padding: 130px;
     margin: 40px 0px;
     gap: 24px;
 }
-.target{
+
+.target {
     font-family: Azeret Mono;
     background-color: burlywood;
     border-radius: 15px;
     padding: 40px;
     justify-content: space-between;
 }
-.target-text{
+
+.target-text {
     margin-bottom: 20px;
 }
-.link{
+
+.link {
     color: black;
 }
-.target-1{
+
+.target-1 {
     font-family: Azeret Mono;
     background-color: burlywood;
     border-radius: 15px;
     padding: 40px;
 }
-.target-2{
+
+.target-2 {
     font-family: Azeret Mono;
     background-color: burlywood;
     border-radius: 15px;
     padding: 40px;
+}
+
+/* support */
+.support {
+    display: flex;
+    flex-direction: column;
+    padding: 64px 60px;
+    color: white;
+    background-size: cover;
+    background-image: url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    
+    border-radius: 16px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.supp {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.input-container {
+    width: 1044px;
+    height: 185px;
+}
+
+.input-box {
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    width: 548px;
+    height: 57px;
+    background: rgb(255, 255, 255);
+}
+
+.input {
+    margin-top: 20px;
+    text-align: center;
+
+}
+
+.sub-btn {
+    font-weight: 600px;
+    border-radius: 8px;
+    width: 120px;
+    height: 57px;
+    background: rgb(255, 255, 255);
 }

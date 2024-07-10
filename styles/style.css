@@ -20,7 +20,7 @@
 }
 
 .description {
-    
+
     font-size: 17px;
     font-weight: 400px;
     margin: 20px 110px 40px 110px;
@@ -162,14 +162,43 @@
     justify-content: space-around;
     display: flex;
     padding: 130px;
-    margin: 40px 0px;
     gap: 24px;
+}
+
+.my-terget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 16px;
+    padding: 0px 300px;
+    background: rgba(13, 19, 33, 0.02);
+    gap: 30px;
+}
+
+.title-terget {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.target-text {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
 }
 
 .target {
     font-family: Azeret Mono;
     border-radius: 16px;
-
     background: rgba(255, 76, 30, 0.05);
     padding: 40px;
     justify-content: space-between;
@@ -267,6 +296,7 @@
     justify-content: space-between;
     padding: 32px 150px;
 }
-.s-link{
+
+.s-link {
     margin-right: 20px;
 }
